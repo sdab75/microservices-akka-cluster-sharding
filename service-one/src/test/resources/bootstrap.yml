@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: attachmentsvcs
+  profiles:
+      active: dev
+  cloud:
+    config:
+      env: dev # optional
+      label: master # optional
+      uri: http://gntportal.cgifederal.com/config-svcs/
+      #uri: http://localhost:8888
